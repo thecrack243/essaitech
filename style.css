@@ -1,0 +1,614 @@
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300;400;700&display=swap');
+
+* 
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rowdies', cursive;
+}
+
+body 
+{
+    display: flex;
+    flex-direction: row;
+    background-image: url(img/5.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    min-height: 100vh;
+    width: 100%;
+}
+
+.overlay
+{
+    position: absolute;
+    height: auto;
+    width: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(14, 12, 12, 0.7);
+}
+
+h1 
+{
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+img
+{
+    height: 550px;
+    width: 500px;
+    border-radius: 6px;
+    z-index: 1;
+}
+
+form 
+{
+    width: 500px;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 6px;
+    font-size: 14px;
+    z-index: 1;
+}
+form input 
+{
+    margin: 8px 0;
+    padding: 15px;
+    border: 1px solid #999;
+    border-radius: 3px;
+    outline: none;
+}
+form input[type="submit"]
+{
+    cursor: pointer;
+    background-color: #6F7BD9;
+    color: #fff;
+    border: 1px solid #6F7BD9;
+}
+
+form textarea
+{
+    margin: 8px 0;
+    padding: 15px;
+    height: 250px;
+    border: 1px solid #999;
+    border-radius: 3px;
+    outline: none;
+    resize: none;
+}
+
+form textarea:focus
+{
+  border-color: rgb(74, 93, 197);
+}
+
+form input:focus
+{
+  border-color: rgb(74, 93, 197);
+}
+
+@media screen and (max-width: 1000px)
+{
+    body 
+    {
+        display: flex;
+        flex-direction: row;
+        background-image: url(img/5.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
+        min-height: 100vh;
+        padding-left: 5px;
+        padding-right: 5px;
+        width: 100%;
+    }
+
+    .overlay
+    {
+        position: absolute;
+        height: auto;
+        width: auto;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: rgba(14, 12, 12, 0.7);
+    }
+
+    img
+    {
+        height: 550px;
+        width: 500px;
+        border-radius: 6px;
+        margin-right: 7px;
+        z-index: 1;
+    }
+  form 
+    {
+        width: 400px;
+        display: flex;
+        flex-direction: column;
+        background-color: #fff;
+        padding: 30px;
+        border-radius: 6px;
+        font-size: 14px;
+    }
+    form input 
+    {
+        margin: 8px 0;
+        padding: 15px;
+        border: 1px solid #999;
+        border-radius: 3px;
+        outline: none;
+    }
+    
+    form input[type="submit"]
+    {
+      cursor: pointer;
+        background-color: #6F7BD9;
+        color: #fff;
+        border: 1px solid #6F7BD9;
+
+    }
+}
+
+@media screen and (max-width: 900px)
+{
+    body 
+    {
+        display: flex;
+        flex-direction: row;
+        background-image: url(img/5.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
+        min-height: 100vh;
+        padding-left: 5px;
+        padding-right: 5px;
+        width: 100%;
+    }
+
+    .overlay
+    {
+        position: absolute;
+        height: auto;
+        width: auto;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: rgba(14, 12, 12, 0.7);
+    }
+
+    img
+    {
+        height: 550px;
+        width: 500px;
+        border-radius: 6px;
+        margin-right: 5px;
+        z-index: 1;
+    }
+  form 
+    {
+        width: 400px;
+        display: flex;
+        flex-direction: column;
+        background-color: #fff;
+        padding: 30px;
+        border-radius: 6px;
+        font-size: 14px;
+    }
+    form input 
+    {
+        margin: 8px 0;
+        padding: 15px;
+        border: 1px solid #999;
+        border-radius: 3px;
+        outline: none;
+    }
+    
+    form input[type="submit"]
+    {
+      cursor: pointer;
+        background-color: #6F7BD9;
+        color: #fff;
+        border: 1px solid #6F7BD9;
+
+    }
+}
+
+@media screen and (max-width: 800px)
+{
+    body 
+    {
+        display: flex;
+        flex-direction: row;
+        background-image: url(img/5.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
+        min-height: 100vh;
+        padding-left: 5px;
+        padding-right: 5px;
+        width: 100%;
+    }
+
+    .overlay
+    {
+        position: absolute;
+        height: auto;
+        width: auto;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: rgba(14, 12, 12, 0.7);
+    }
+
+    img
+    {
+        height: 550px;
+        width: 500px;
+        border-radius: 6px;
+        z-index: 1;
+    }
+  form 
+    {
+        width: 400px;
+        display: flex;
+        flex-direction: column;
+        background-color: #fff;
+        padding: 30px;
+        border-radius: 6px;
+        font-size: 14px;
+    }
+    form input 
+    {
+        margin: 8px 0;
+        padding: 15px;
+        border: 1px solid #999;
+        border-radius: 3px;
+        outline: none;
+    }
+    
+    form input[type="submit"]
+    {
+      cursor: pointer;
+        background-color: #6F7BD9;
+        color: #fff;
+        border: 1px solid #6F7BD9;
+
+    }
+}
+
+@media screen and (max-width: 790px)
+{
+    body 
+    {
+        display: flex;
+        flex-direction: row;
+        background-image: url(img/5.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
+        min-height: 100vh;
+        padding-left: 5px;
+        padding-right: 5px;
+        width: 100%;
+    }
+
+    .overlay
+    {
+        position: absolute;
+        height: auto;
+        width: auto;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: rgba(14, 12, 12, 0.7);
+    }
+
+    img
+    {
+        height: 550px;
+        width: 500px;
+        border-radius: 6px;
+        z-index: 1;
+    }
+    form 
+    {
+        width: 400px;
+        display: flex;
+        flex-direction: column;
+        background-color: #fff;
+        padding:  30px 15px;
+        border-radius: 6px;
+        font-size: 14px;
+    }
+    form input 
+    {
+        margin: 8px 0;
+        padding: 15px;
+        border: 1px solid #999;
+        border-radius: 3px;
+        outline: none;
+    }
+    
+    form input[type="submit"]
+    {
+      cursor: pointer;
+        background-color: #6F7BD9;
+        color: #fff;
+        border: 1px solid #6F7BD9;
+
+    }
+}
+
+@media screen and (max-width: 700px) 
+{
+    
+    body 
+    {
+        display: flex;
+        flex-direction: column;
+        background-image: url(img/5.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
+        padding: 10px;
+        min-height: 100vh;
+        width: 100%;
+    }
+
+    .overlay
+    {
+        position: absolute;
+        height: 1190px;
+        width: 100%;
+        background: rgba(14, 12, 12, 0.7);
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+
+    img
+    {
+        margin-top: 20px;
+        margin-bottom: 10px;
+        height: 570px;
+        width: 500px;
+        border-radius: 6px;
+        z-index: 1;
+    }
+
+    form 
+    {
+        width: 500px;
+        display: flex;
+        margin-bottom: 20px;
+        flex-direction: column;
+        background-color: #fff;
+        padding: 30px;
+        border-radius: 6px;
+        font-size: 14px;
+    }
+    form input 
+    {
+        margin: 8px 0;
+        padding: 15px;
+        border: 1px solid #999;
+        border-radius: 3px;
+        outline: none;
+    }
+    form input[type="submit"]
+    {
+      cursor: pointer;
+        background-color: #6F7BD9;
+        color: #fff;
+        border: 1px solid #6F7BD9;
+
+    }
+
+}
+
+  @media screen and (max-width: 600px) 
+  {
+    body 
+    {
+        display: flex;
+        flex-direction: column;
+        background-image: url(img/5.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
+        padding: 10px;
+        min-height: 100vh;
+        width: 100%;
+    }
+
+    .overlay
+    {
+        position: absolute;
+        height: 1160px;
+        width: 100%;
+        background: rgba(14, 12, 12, 0.7);
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+
+    img
+    {
+        margin-top: 20px;
+        margin-bottom: 10px;
+        height: 550px;
+        width: 410px;
+        border-radius: 6px;
+        z-index: 1;
+    }
+
+    form 
+    {
+        width: 400px;
+        display: flex;
+        margin-bottom: 20px;
+        flex-direction: column;
+        background-color: #fff;
+        padding: 30px;
+        border-radius: 6px;
+        font-size: 14px;
+    }
+    form input 
+    {
+        margin: 8px 0;
+        padding: 15px;
+        border: 1px solid #999;
+        border-radius: 3px;
+        outline: none;
+    }
+    form input[type="submit"]
+    {
+      cursor: pointer;
+        background-color: #6F7BD9;
+        color: #fff;
+        border: 1px solid #6F7BD9;
+
+    } 
+  }
+
+  @media screen and (max-width: 550px) 
+  {
+    body 
+    {
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        min-height: 100vh;
+        width: 100%;
+    }
+
+    .overlay
+    {
+        position: absolute;
+        height: 1180px;
+        width: 100%;
+        background: rgba(14, 12, 12, 0.7);
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+
+    img
+    {
+        margin-top: 20px;
+        margin-bottom: 10px;
+        margin: 10px 0px;
+        height: 550px;
+        width: 350px;
+        border-radius: 6px;
+        z-index: 1;
+    }
+
+    form 
+    {
+        width: 350px;
+        display: flex;
+        margin-bottom: 20px;
+        flex-direction: column;
+        background-color: #fff;
+        padding: 30px;
+        border-radius: 6px;
+        font-size: 12px;
+    }
+    form input 
+    {
+        margin: 8px 0;
+        padding: 15px;
+        border: 1px solid #999;
+        border-radius: 3px;
+        outline: none;
+    }
+    form input[type="submit"]
+    {
+      cursor: pointer;
+        background-color: #6F7BD9;
+        color: #fff;
+        border: 1px solid #6F7BD9;
+
+    } 
+  }
+
+  @media screen and (max-width: 450px) 
+  {
+    body 
+    {
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        min-height: 100vh;
+        width: 100%;
+    }
+
+    .overlay
+    {
+        position: absolute;
+        height: 1180px;
+        width: 100%;
+        background: rgba(14, 12, 12, 0.7);
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+
+    img
+    {
+        margin-top: 20px;
+        margin-bottom: 10px;
+        margin: 10px 0px;
+        height: 550px;
+        width: 300px;
+        border-radius: 6px;
+        z-index: 1;
+    }
+
+    form 
+    {
+        width: 300px;
+        display: flex;
+        margin-bottom: 20px;
+        flex-direction: column;
+        background-color: #fff;
+        padding: 30px;
+        border-radius: 6px;
+        font-size: 10px;
+    }
+    form input 
+    {
+        margin: 8px 0;
+        padding: 15px;
+        border: 1px solid #999;
+        border-radius: 3px;
+        outline: none;
+    }
+    form input[type="submit"]
+    {
+      cursor: pointer;
+        background-color: #6F7BD9;
+        color: #fff;
+        border: 1px solid #6F7BD9;
+
+    } 
+  }
